@@ -20,7 +20,7 @@ class Hp():
         self.nb_directions = 32
         self.nb_best_directions = 32
         assert self.nb_best_directions <= self.nb_directions
-        self.noise = 0.03
+        self.noise = 0.05
         self.seed = 1
         self.env_name = 'AntBulletEnv-v0'
 
